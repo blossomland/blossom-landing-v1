@@ -26,12 +26,11 @@ function App() {
     ]
 
     return (
-        <section className="h-screen flex flex-col justify-between">
+        <section className="h-full flex flex-col justify-between">
             <header className="App-header p-8">
                 {/*<img src={logo} className="App-logo" alt="logo" />*/}
                 <div className={"text-xs"}>
                     <p className={"uppercase text-center"}>Blossom Land ~ soon™</p>
-
                 </div>
             </header>
 
@@ -51,7 +50,7 @@ function App() {
                 </div>
             </article>
 
-            <footer className={"text-xs h-32 w-full mx-auto text-center dotted-01"}>
+            <footer className={"text-xs h-48 w-full mx-auto text-center dotted-01"}>
                 <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener" href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
                     <p className={"pt-8"}>Get notifications: </p>
                     <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
