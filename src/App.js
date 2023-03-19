@@ -39,7 +39,8 @@ function App() {
                         {items.map((item, i) => (
                             <div key={i} className="embla__slide">
                                 <div className={"w-96 mx-auto"}>
-                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.jpg`} alt={item.name}/>
+                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.jpg`}
+                                         alt={item.name}/>
                                     <div className={"text-xs mx-auto w-96 py-8 text-center uppercase"}>{item.name}</div>
                                 </div>
                             </div>
@@ -48,8 +49,11 @@ function App() {
                 </div>
             </article>
 
-            <footer className={"text-xs h-32 w-full mx-auto text-center dotted-01"}><p className={"pt-8"}>Get notifications: </p>
-                <p className={"py-2 uppercase"}><a href={"https://t.me/+M7kbmbbbdnI2NDM0"}>https://t.me/+M7kbmbbbdnI2NDM0</a></p></footer>
+            <footer className={"text-xs h-32 w-full mx-auto text-center dotted-01"}>
+                <a target={'_blank'} className={""} rel="noreferrer noopener" href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
+                    <p className={"pt-8"}>Get notifications: </p>
+                    <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
+            </footer>
         </section>
     );
 }
