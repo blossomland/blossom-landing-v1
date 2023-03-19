@@ -39,7 +39,7 @@ function App() {
                         {items.map((item, i) => (
                             <div key={i} className="embla__slide">
                                 <div className={"w-96 mx-auto"}>
-                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.png`} alt={item.name}/>
+                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.jpg`} alt={item.name}/>
                                     <div className={"text-xs mx-auto w-96 py-8 text-center uppercase"}>{item.name}</div>
                                 </div>
                             </div>
