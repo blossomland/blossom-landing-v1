@@ -49,7 +49,7 @@ function App() {
             </article>
 
             <footer className={"text-xs h-32 w-full mx-auto text-center dotted-01"}><p className={"pt-8"}>Get notifications: </p>
-                <p className={"py-2 uppercase"}><a href={"https://t.me/+M7kbmbbbdnI2NDM0"}>https://t.me/+yc1dIWBeHyAyM2Vk</a></p></footer>
+                <p className={"py-2 uppercase"}><a href={"https://t.me/+M7kbmbbbdnI2NDM0"}>https://t.me/+M7kbmbbbdnI2NDM0</a></p></footer>
         </section>
     );
 }
