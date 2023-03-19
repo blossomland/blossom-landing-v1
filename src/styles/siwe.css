@@ -1,0 +1,119 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: calc(100vh - 48px);  /* vh minus footer */
+}
+
+
+.Header-span {
+  font-weight: 600;
+  font-size: 32px;
+  padding: 26px 0px;
+}
+
+
+.Header-logo {
+  height: 40px;
+  pointer-events: none;
+  margin-right: 16px;
+}
+
+.Header-account {
+  margin-left: auto;
+}
+
+
+
+/* Content */
+.Content {
+  width: 480px;
+  max-width: 100%;
+  min-height: 180px;
+  /*background-color: rgba(39, 39, 39, 0.7);*/
+  backdrop-filter: blur(2px);
+  border-radius: 12px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+
+
+
+.Button-loader {
+  margin: 0px 8px;
+}
+
+.Button-loader img {
+  width: 14px;
+  height: 14px;
+  animation: spin 1s linear infinite;
+}
+
+/*  */
+.no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+    supported by Chrome, Edge, Opera and Firefox */
+}
+
+/* Animation Spin */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* AccountInfo */
+.AccountInfo {
+  margin-top: 16px;
+  padding: 16px 8px;
+  border: 1px solid #555555;
+  border-radius: 12px;
+}
+
+.AccountInfo-h2 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.AccountInfo-avatar {
+  width: 35px;
+  height: 35px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.AccountInfo-container {
+  display: flex;
+  align-items: center;
+}
+
+.AccountInfo-label {
+  font-size: 14px;
+  color: #667080;
+}
+
+.AccountInfo-value {
+  color: #fff;
+  word-break: break-all;
+  font-size: 15px;
+}
