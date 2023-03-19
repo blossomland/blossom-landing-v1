@@ -42,7 +42,7 @@ function App() {
                         <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
                 </div>
 
-                <article>
+                <article className={"mt-8"}>
                     <div className="embla" ref={emblaRef}>
                         <div className="embla__container">
                             {items.map((item, i) => (
