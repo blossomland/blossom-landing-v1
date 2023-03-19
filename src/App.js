@@ -27,31 +27,35 @@ function App() {
 
     return (
         <section className="h-screen flex flex-col justify-between">
-            <header className="App-header p-8">
-                {/*<img src={logo} className="App-logo" alt="logo" />*/}
-                <div className={"text-xs"}>
-                    <p className={"uppercase text-center"}>Blossom Land ~ soon™</p>
-                </div>
-            </header>
-
-            <article>
-                <div className="embla" ref={emblaRef}>
-                    <div className="embla__container">
-                        {items.map((item, i) => (
-                            <div key={i} className="embla__slide">
-                                <div className={"w-96 mx-auto"}>
-                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.jpg`}
-                                         alt={item.name}/>
-                                    <div className={"text-xs mx-auto w-96 py-8 text-center uppercase"}>{item.name}</div>
-                                </div>
-                            </div>
-                        ))}
+            <div className={"flex flex-col justify-items-stretch"}>
+                <header className="p-8">
+                    {/*<img src={logo} className="App-logo" alt="logo" />*/}
+                    <div className={"text-xs place-content-center"}>
+                        <p className={"uppercase text-center"}>Blossom Land ~ soon™</p>
                     </div>
-                </div>
-            </article>
+                </header>
 
-            <footer className={"text-xs h-48 w-full mx-auto text-center dotted-01"}>
-                <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener" href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
+                <article>
+                    <div className="embla" ref={emblaRef}>
+                        <div className="embla__container">
+                            {items.map((item, i) => (
+                                <div key={i} className="embla__slide">
+                                    <div className={"w-96 mx-auto"}>
+                                        <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.jpg`}
+                                             alt={item.name}/>
+                                        <div
+                                            className={"text-xs mx-auto w-96 py-8 text-center uppercase"}>{item.name}</div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <footer className={"text-xs h-24 w-full mx-auto text-center dotted-01"}>
+                <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener"
+                   href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
                     <p className={"pt-8"}>Get notifications: </p>
                     <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
             </footer>
