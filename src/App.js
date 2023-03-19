@@ -26,7 +26,7 @@ function App() {
     ]
 
     return (
-        <section className="h-full flex flex-col justify-between">
+        <section className="h-screen flex flex-col justify-between">
             <header className="App-header p-8">
                 {/*<img src={logo} className="App-logo" alt="logo" />*/}
                 <div className={"text-xs"}>

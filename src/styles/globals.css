@@ -87,3 +87,9 @@
     flex: 0 0 100%;
     min-width: 0;
 }
+
+@supports (-webkit-touch-callout: none) {
+    .h-screen {
+        height: -webkit-fill-available;
+    }
+}
