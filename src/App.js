@@ -18,7 +18,10 @@ function App() {
         {name: "Meme maker", image: "meme-maker"},
         {name: "Operations", image: "operations"},
         {name: "Product", image: "product"},
-        {name: "Project management", image: "project-management"}
+        {name: "Lobster", image: "lobster"},
+        {name: "Threadooor", image: "threadooor"},
+        {name: "Project management", image: "project-management"},
+        {name: "West Ham", image: "project-management"},
     ]
 
     return (
