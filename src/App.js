@@ -1,11 +1,11 @@
 import useEmblaCarousel from "embla-carousel-react";
-import {useEffect} from "react";
 import Autoplay from 'embla-carousel-autoplay'
 
 function App() {
     const [emblaRef] = useEmblaCarousel({loop: true}, [Autoplay()])
 
     const items = [{name: "Creative", image: "creative"},
+        {name: "West Ham", image: "west-ham"},
         {name: "Business Development", image: "business-development"},
         {name: "Community", image: "community"},
         {name: "Data Science", image: "data-science"},
@@ -14,14 +14,13 @@ function App() {
         {name: "Founder", image: "founder"},
         {name: "Journalism", image: "journalist"},
         {name: "Marketing", image: "marketing"},
+        {name: "Lobster", image: "lobster"},
         {name: "Math", image: "math"},
         {name: "Meme maker", image: "meme-maker"},
         {name: "Operations", image: "operations"},
         {name: "Product", image: "product"},
-        {name: "Lobster", image: "lobster"},
         {name: "Threadooor", image: "threadooor"},
         {name: "Project management", image: "project-management"},
-        {name: "West Ham", image: "project-management"},
     ]
 
     return (
@@ -41,7 +40,7 @@ function App() {
                         {items.map((item, i) => (
                             <div key={i} className="embla__slide">
                                 <div className={"w-96 mx-auto"}>
-                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.png`}/>
+                                    <img className={"mx-auto w-96"} src={`../img/skills/${item.image}.png`} alt={item.name}/>
                                     <div className={"text-xs mx-auto w-96 py-8 text-center uppercase"}>{item.name}</div>
                                 </div>
                             </div>
