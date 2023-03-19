@@ -50,7 +50,7 @@ function App() {
             </article>
 
             <footer className={"text-xs h-32 w-full mx-auto text-center dotted-01"}>
-                <a target={'_blank'} className={""} rel="noreferrer noopener" href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
+                <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener" href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
                     <p className={"pt-8"}>Get notifications: </p>
                     <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
             </footer>
