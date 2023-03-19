@@ -58,9 +58,8 @@ function App() {
                         </div>
                     </div>
                 </article>
+
             </div>
-
-
         </section>
     );
 }
