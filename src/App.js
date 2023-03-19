@@ -5,13 +5,16 @@ function App() {
     const [emblaRef] = useEmblaCarousel({loop: true}, [Autoplay()])
 
     const items = [{name: "Creative", image: "creative"},
-        {name: "West Ham", image: "west-ham"},
-        {name: "Business Development", image: "business-development"},
         {name: "Community", image: "community"},
+        {name: "Meme maker", image: "meme-maker"},
         {name: "Data Science", image: "data-science"},
+        {name: "Developer", image: "developer"},
+        {name: "West Ham", image: "west-ham"},
         {name: "Developer Relations", image: "developer-relations"},
         {name: "Finance", image: "finance"},
+        {name: "Threadooor", image: "threadooor"},
         {name: "Founder", image: "founder"},
+        {name: "Business Development", image: "business-development"},
         {name: "Journalism", image: "journalist"},
         {name: "Marketing", image: "marketing"},
         {name: "Lobster", image: "lobster"},
@@ -19,7 +22,6 @@ function App() {
         {name: "Meme maker", image: "meme-maker"},
         {name: "Operations", image: "operations"},
         {name: "Product", image: "product"},
-        {name: "Threadooor", image: "threadooor"},
         {name: "Project management", image: "project-management"},
     ]
 
