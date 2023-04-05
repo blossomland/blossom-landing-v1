@@ -7,7 +7,7 @@ function App() {
     const items = [{name: "Creative", image: "creative"},
         {name: "Community", image: "community"},
         {name: "Meme maker", image: "meme-maker"},
-        {name: "Data Science", image: "data-science"},
+        {name: "Data Scientist", image: "data-science"},
         {name: "Developer", image: "developer"},
         {name: "West Ham", image: "west-ham"},
         {name: "Developer Relations", image: "developer-relations"},
@@ -15,11 +15,9 @@ function App() {
         {name: "Threadooor", image: "threadooor"},
         {name: "Founder", image: "founder"},
         {name: "Business Development", image: "business-development"},
-        {name: "Journalism", image: "journalist"},
+        {name: "Journalist", image: "journalist"},
         {name: "Marketing", image: "marketing"},
-        {name: "Lobster", image: "lobster"},
-        {name: "Math", image: "math"},
-        {name: "Meme maker", image: "meme-maker"},
+        {name: "Mathematician", image: "math"},
         {name: "Operations", image: "operations"},
         {name: "Product", image: "product"},
         {name: "Project management", image: "project-management"},
@@ -29,18 +27,10 @@ function App() {
         <section className="h-screen flex flex-col justify-between">
             <div className={"flex flex-col justify-items-stretch"}>
                 <header className="p-8">
-                    {/*<img src={logo} className="App-logo" alt="logo" />*/}
                     <div className={"text-xs place-content-center"}>
-                        <p className={"uppercase text-center"}>Blossom Land ~ soon™</p>
+                        <p className={"uppercase text-center"}>Blossom ~ soon™</p>
                     </div>
                 </header>
-
-                <div className={"text-xs h-24 w-full mx-auto text-center dotted-01"}>
-                    <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener"
-                       href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
-                        <p className={"pt-8"}>Get notifications: </p>
-                        <p className={"py-2 uppercase"}>https://t.me/+M7kbmbbbdnI2NDM0</p></a>
-                </div>
 
                 <article className={"mt-8"}>
                     <div className="embla" ref={emblaRef}>
@@ -60,7 +50,21 @@ function App() {
                 </article>
 
             </div>
+            <footer className={"text-xs h-24 dotted-01 flex items-center"}>
+                <div className={"w-24 mx-auto text-xs flex flex-row place-content-center text-center gap-x-8"}>
+                    <div className={"uppercase"}>
+                        <a className={"cursor-pointer"} href="https://twitter.com/blossomland_" target="_blank" rel="noreferrer noopener">twitter</a>
+                    </div>
+                    <div>
+                        <a target={'_blank'} className={"cursor-pointer"} rel="noreferrer noopener"
+                           href={"https://t.me/+M7kbmbbbdnI2NDM0"}>
+                            <span className={"uppercase"}>Telegram</span></a>
+                    </div>
+                </div>
+
+            </footer>
         </section>
+
     );
 }
 

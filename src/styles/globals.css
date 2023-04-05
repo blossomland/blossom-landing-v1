@@ -58,22 +58,6 @@
         --blossom-01: url('../../public/img/blossom/blossom-bottom.jpg');
         --tree: url('../../public/img/blossom/tree.jpg');
         --p-bg-linear: linear-gradient(0deg, rgba(240,38,42,0.1) 0%, rgba(247,42,107,0.1) 5%, rgba(255,255,255,.1) 30%, rgba(247,248,247,1) 100%);
-        --business-development: url('../../public/img/skills/business-development.png');
-        --community: url('../../public/img/skills/community.png');
-        --creative: url('../../public/img/skills/creative.png');
-        --data-science: url('../../public/img/skills/data-science.png');
-        --developer-relations: url('../../public/img/skills/developer-relations.png');
-        --finance: url('../../public/img/skills/finance.png');
-        --founder: url('../../public/img/skills/founder.png');
-        --journalist: url('../../public/img/skills/journalist.png');
-        --marketing: url('../../public/img/skills/marketing.png');
-        --math: url('../../public/img/skills/math.png');
-        --meme-maker: url('../../public/img/skills/meme-maker.png');
-        --operations: url('../../public/img/skills/operations.png');
-        --product: url('../../public/img/skills/product.png');
-        --project-management: url('../../public/img/skills/project-management.png');
-        --researcher: url('../../public/img/skills/researcher.png');
-        --west-ham: url('../../public/img/skills/west-ham.png');
     }
 }
 
